@@ -1,0 +1,26 @@
+version: "3"
+services:
+  node1:
+    build: .
+    container_name: node1
+    hostname: node1
+    networks:
+      - cluster
+
+  node2:
+    build: .
+    container_name: node2
+    hostname: node2
+    networks:
+      - cluster
+
+  node3:
+    build: .
+    container_name: node3
+    hostname: node3
+    networks:
+      - cluster
+
+networks:
+  cluster:
+    driver: bridge
