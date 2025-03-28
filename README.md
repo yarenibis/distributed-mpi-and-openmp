@@ -1,4 +1,4 @@
-                                                                          MPI ve OpenMP Arasındaki Temel Farklar
+MPI ve OpenMP Arasındaki Temel Farklar
 
 MPI (Message Passing Interface)
 MPI, özellikle dağıtık bellek mimarilerinde kullanılan bir paralel programlama modelidir. Her işlem kendi belleğine sahiptir ve işlemler arasında veri aktarımı mesajlaşma yoluyla sağlanır.
